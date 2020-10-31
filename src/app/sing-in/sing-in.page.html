@@ -1,0 +1,33 @@
+<ion-header class="bg_transparent">
+	<ion-toolbar>
+		<ion-title></ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<div class="banner">
+		<div class="logo">
+			<img src="assets/images/logo.png">
+		</div>
+	</div>
+
+	<div class="form">
+
+		<ion-button size="large" class="btn fb_btn" (click)="goTohome()">{{'sign_with_facebook' | translate}}</ion-button>
+		<h2 class=ion-text-center>{{'or_sign_in_with_email_address' | translate}}</h2>
+		<ion-list lines="none">
+			<ion-item lines="none">
+				<ion-input placeholder="{{'email_address' | translate}}" type="email"></ion-input>
+			</ion-item>
+
+			<ion-item lines="none">
+				<ion-input placeholder="{{'password' | translate}}" type="password"></ion-input>
+
+				<h3 slot="end" (click)="goToForgotPassword()">{{'forgot' | translate}}</h3>
+			</ion-item>
+
+			<ion-button size="large" class="btn" (click)="goTohome()">{{'sign_in' | translate}}</ion-button>
+			<h4 class=ion-text-center>{{'not_registered_yet' | translate}} <span (click)="goToSignUP()">{{'sign_up_now' | translate}}</span></h4>
+		</ion-list>
+	</div>
+</ion-content>

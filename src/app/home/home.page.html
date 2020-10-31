@@ -1,0 +1,213 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>
+			<span class="ion-float-start" (click)="change_language()">
+				<ion-icon class="zmdi zmdi-settings ion-text-start"></ion-icon>
+			</span>
+			<span class="title">{{'app_title' | translate}}</span>
+			<span class="ion-float-end" (click)="notification()">
+				<ion-icon class="zmdi zmdi-notifications ion-text-end"></ion-icon>
+			</span>
+		</ion-title>
+	</ion-toolbar>
+
+	<div class="profle_box d-flex" (click)="my_profile()">
+		<div class="profile_text">
+			<h2>{{'hello' | translate}} Samantha,</h2>
+			<h3>18 Sept, 2019 Web</h3>
+		</div>
+		<div class="img_box end center_img">
+			<img src="assets/images/profile_pick.png" class="crop_img">
+		</div>
+	</div>
+</ion-header>
+
+<ion-content class="bg_color">
+	<div class="container">
+		<div class="whats_next">
+			<!-- <h2>{{'whats_next' | translate}}</h2> -->
+			<h3>Primary Maths</h3>
+			<!-- <h4 class="d-flex">2 days to go <span class="end">{{'view_all' | translate}}</span></h4> -->
+			<ion-item>
+				<ion-label>Year</ion-label>
+				<ion-select value="Reception" okText="Okay" cancelText="Dismiss">
+					<ion-select-option value="reception">Reception</ion-select-option>
+					<ion-select-option value="year1">Year 1</ion-select-option>
+					<ion-select-option value="year2">Year 2</ion-select-option>
+					<ion-select-option value="year3">Year 3</ion-select-option>
+					<ion-select-option value="year4">Year 4</ion-select-option>
+					<ion-select-option value="year5">Year 5</ion-select-option>
+					<ion-select-option value="year6">Year 6</ion-select-option>
+				</ion-select>
+			</ion-item>
+		</div>
+
+		<div class="menu_container">
+			<ion-row>
+				<ion-col *ngFor="let subject of subjects" size="6">
+					<div class="menu d-flex" (click)="tests()">
+						<h2>{{'counting to 3' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_tests.png">
+						</div>
+					</div>
+				</ion-col>
+				<!-- <ion-col size="6">
+					<div class="menu d-flex" (click)="tests()">
+						<h2>{{'counting to 5' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_tests.png">
+						</div>
+					</div>
+				</ion-col>
+
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="tests()">
+						<h2>{{'comparing numbers' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_tests.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="tests()">
+						<h2>{{'addition' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_tests.png">
+						</div>
+					</div>
+				</ion-col>
+
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="syllabus()">
+						<h2>{{'syllabus' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_syllabus.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="calender()">
+						<h2>{{'calender' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_calender.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="insight()">
+						<h2>{{'insights' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_insights.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="about_academy()">
+						<h2>{{'about' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_about.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="faculties()">
+						<h2>{{'faculities' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_faculties.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="support()">
+						<h2>{{'support' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_support.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="faculties_message()">
+						<h2>{{'messages' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_messages.png">
+						</div>
+					</div>
+				</ion-col>
+
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="syllabus()">
+						<h2>{{'syllabus' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_syllabus.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="calender()">
+						<h2>{{'calender' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_calender.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="tests()">
+						<h2>{{'tests' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_tests.png">
+						</div>
+					</div>
+				</ion-col>
+
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="insight()">
+						<h2>{{'insights' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_insights.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="about_academy()">
+						<h2>{{'about' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_about.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="faculties()">
+						<h2>{{'faculities' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_faculties.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="support()">
+						<h2>{{'support' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_support.png">
+						</div>
+					</div>
+				</ion-col>
+				<ion-col size="6">
+					<div class="menu d-flex" (click)="faculties_message()">
+						<h2>{{'messages' | translate}}</h2>
+						<div class="menu_img end">
+							<img src="assets/images/ic_messages.png">
+						</div>
+					</div>
+				</ion-col> -->
+			</ion-row>
+		</div>
+	</div>
+
+	<div *ngIf="config.showBuyPromt" (click)="buyAppAction()" class="buy_this_app">
+		<h2>
+			<ion-icon class="zmdi zmdi-shopping-cart"></ion-icon>
+			{{"buy_this_app" | translate}}
+		</h2>
+	</div>
+</ion-content>

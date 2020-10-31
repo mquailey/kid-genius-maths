@@ -1,0 +1,13 @@
+{
+  "appId": "io.techspike.kidgeniusmaths",
+  "appName": "kid-genius-maths",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
