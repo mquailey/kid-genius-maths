@@ -1,6 +1,7 @@
 import { Component, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { APP_CONFIG, AppConfig } from '../app.config';
+import { FilterPipe } from './filter.pipe';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -8,22 +9,57 @@ import { APP_CONFIG, AppConfig } from '../app.config';
 })
 export class HomePage {
 
-  subjects: Array<{ code: string, name: string }>;
+  subjects: Array<{ code: string, name: string, year: string }>;
+  selectedYear: string;
 
   constructor(@Inject(APP_CONFIG) public config: AppConfig, private route: Router ) { 
-    this.subjects = [{
-      code: 'counting-to-three',
-      name: 'Counting to 3'
-    }, {
-      code: 'counting-to-five',
-      name: 'Counting to 5'
-    }, {
-      code: 'count-to-ten',
-      name: 'Counting to 10'
-    }, {
-      code: 'count-to-twenty',
-      name: 'Counting to 20'
-    }];
+    this.subjects = [
+      {code: 'counting-to-three',name: 'Counting to 3',year: 'reception'}, 
+      {code: 'counting-to-five',name: 'Counting to 5',year: 'reception'}, 
+      {code: 'counting-to-ten',name: 'Counting to 10',year: 'reception'}, 
+      {code: 'counting-to-twenty',name: 'Counting to 20',year: 'reception'}, 
+      {code: 'comparing-numbers',name: 'Comparing Numbers',year: 'reception'}, 
+      {code: 'addition-to-five',name: 'Addition up to 5',year: 'reception'}, 
+      {code: 'addition-to-ten',name: 'Addition up to 10',year: 'reception'}, 
+      {code: 'substraction-to-five',name: 'Subtraction up to 5',year: 'reception'}, 
+      {code: 'substraction-to-ten',name: 'Subtraction up to 10',year: 'reception'}, 
+      {code: 'fractions',name: 'Fractions',year: 'reception'}, 
+      {code: 'positions',name: 'Positions',year: 'reception'}, 
+      {code: 'classify',name: 'Classify',year: 'reception'}, 
+      {code: 'patterns',name: 'Patterns',year: 'reception'}, 
+      {code: 'size',name: 'Size',year: 'reception'}, 
+      {code: 'money',name: 'Money',year: 'reception'}, 
+      {code: 'flat-shapes',name: 'Flat shapes',year: 'reception'}, 
+      {code: 'solid-shapes',name: 'Solid shapes',year: 'reception'},
+
+      {code: 'numbers-and-counting-to-three',name: 'Numbers and counting to 3',year: 'year1'}, 
+      {code: 'numbers-and-counting-to-five',name: 'Numbers and counting to 5',year: 'year1'}, 
+      {code: 'numbers-and-counting-to-ten',name: 'Numbers and counting to 10',year: 'year1'}, 
+      {code: 'numbers-and-counting-to-twenty',name: 'Numbers and counting to 20',year: 'year1'}, 
+      {code: 'numbers-and-counting-beyong-20',name: 'Numbers and comparing beyond 20',year: 'year1'}, 
+      {code: 'skip-counting',name: 'Skip counting',year: 'year1'}, 
+      {code: 'comparing',name: 'Comparing',year: 'year1'}, 
+      {code: 'sorting-ordering-and-classifying',name: 'Sorting, ordering and classifying',year: 'year1'}, 
+      {code: 'patterns',name: 'Patterns',year: 'year1'}, 
+      {code: 'positions',name: 'Positions',year: 'year1'}, 
+      {code: 'addition-skill-builders',name: 'Addition skill builders',year: 'year1'}, 
+      {code: 'addition-up-to-5',name: 'Addition up to 5',year: 'year1'}, 
+      {code: 'addition-up-to-10-and-20',name: 'Addition up to 10 and 20',year: 'year1'}, 
+      {code: 'substraction-skill-builders',name: 'Substraction skill builders',year: 'year1'}, 
+      {code: 'substraction-up-to-5',name: 'Substraction up to 5',year: 'year1'}, 
+      {code: 'substraction-up-to-10-and-20',name: 'Substraction up to 10 and 20',year: 'year1'}, 
+      {code: 'fractions',name: 'Fractions',year: 'year1'},
+      {code: 'time',name: 'Time',year: 'year1'},
+      {code: 'data-and-graphs',name: 'Data and graphs',year: 'year1'},
+      {code: 'probability',name: 'Probability',year: 'year1'},
+      {code: 'measurement',name: 'Measurement',year: 'year1'},
+      {code: 'money',name: 'Money',year: 'year1'},
+      {code: 'two-dimensional-shapes',name: 'Two-dimensional shapes',year: 'year1'},
+      {code: 'three-dimensional-shapes',name: 'Three-dimensional shapes',year: 'year1'},
+      {code: 'vocabulary',name: 'Vocabulary',year: 'year1'},
+      {code: 'understand-multiplication',name: 'Understand multiplication',year: 'year1'},
+      {code: 'understand division',name: 'Understand division',year: 'year1'}
+    ];
   }
 
   notification() {

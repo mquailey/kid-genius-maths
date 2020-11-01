@@ -30,7 +30,7 @@
 			<!-- <h4 class="d-flex">2 days to go <span class="end">{{'view_all' | translate}}</span></h4> -->
 			<ion-item>
 				<ion-label>Year</ion-label>
-				<ion-select value="Reception" okText="Okay" cancelText="Dismiss">
+				<ion-select [(ngModel)]="selectedYear" value="Reception" okText="Okay" cancelText="Dismiss" interface="popover" ionChange="alert('hello')">
 					<ion-select-option value="reception">Reception</ion-select-option>
 					<ion-select-option value="year1">Year 1</ion-select-option>
 					<ion-select-option value="year2">Year 2</ion-select-option>
@@ -44,9 +44,9 @@
 
 		<div class="menu_container">
 			<ion-row>
-				<ion-col *ngFor="let subject of subjects" size="6">
+				<ion-col *ngFor="let subject of subjects | filter:selectedYear" size="6">
 					<div class="menu d-flex" (click)="tests()">
-						<h2>{{'counting to 3' | translate}}</h2>
+						<h2>{{subject.name | translate}}</h2>
 						<div class="menu_img end">
 							<img src="assets/images/ic_tests.png">
 						</div>

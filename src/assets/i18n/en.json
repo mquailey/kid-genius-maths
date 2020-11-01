@@ -77,5 +77,9 @@
     "leaderboard": "Leaderboard",
     "buy_this_app": "Buy This App",
     "change_language": "Change Language",
-    "select_language": "Select Language"
+    "select_language": "Select Language",
+    "counting-to-three": "Counting to 3",
+    "counting-to-five": "Counting to 5",
+    "counting-to-ten": "Counting to 10",
+    "counting-to-twenty": "Counting to 20"
 }
