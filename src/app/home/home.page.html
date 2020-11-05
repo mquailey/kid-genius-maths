@@ -45,7 +45,7 @@
 		<div class="menu_container">
 			<ion-row>
 				<ion-col *ngFor="let subject of subjects | filter:selectedYear" size="6">
-					<div class="menu d-flex" (click)="tests()">
+					<div class="menu d-flex" (click)="tests(subject)">
 						<h2>{{subject.name | translate}}</h2>
 						<div class="menu_img end">
 							<img src="assets/images/ic_tests.png">

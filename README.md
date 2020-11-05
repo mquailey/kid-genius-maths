@@ -1,12 +1,15 @@
 
 brew install cocoapods
+npm install
 npm run build
 
 ionic capacitor add ios
-ionic capacitor open ios
 
 ionic cap copy
 ionic cap sync
+
+ionic capacitor open ios
+
 
 to run on device:
 

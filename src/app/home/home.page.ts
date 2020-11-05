@@ -1,18 +1,22 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { APP_CONFIG, AppConfig } from '../app.config';
+import { APP_STATE, AppState } from '../app-state.service';
 import { FilterPipe } from './filter.pipe';
+
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage {
+export class HomePage implements OnInit {
 
   subjects: Array<{ code: string, name: string, year: string }>;
   selectedYear: string;
 
-  constructor(@Inject(APP_CONFIG) public config: AppConfig, private route: Router ) { 
+  constructor(@Inject(APP_CONFIG) public config: AppConfig, @Inject(APP_STATE) public appState: AppState , private route: Router ) { 
+    appState.data.set("studentYear","reception");
+    this.selectedYear = appState.data.get("studentYear").toString();
     this.subjects = [
       {code: 'counting-to-three',name: 'Counting to 3',year: 'reception'}, 
       {code: 'counting-to-five',name: 'Counting to 5',year: 'reception'}, 
@@ -62,6 +66,8 @@ export class HomePage {
     ];
   }
 
+  ngOnInit(): void {}
+
   notification() {
     this.route.navigate(['./notification']);
   }
@@ -77,8 +83,9 @@ export class HomePage {
   calender() {
     this.route.navigate(['./calender']);
   }
-  tests() {
-    this.route.navigate(['./tests']);
+  tests(subject) {
+    this.appState.data.set("studentYear", this.selectedYear);
+    this.route.navigate(['./tests'], {state: {data: subject}});
   }
   insight() {
     this.route.navigate(['./insight']);

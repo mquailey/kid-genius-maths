@@ -3,7 +3,7 @@
 		<ion-buttons slot="start">
 			<ion-back-button text="" icon="chevron-back-outline"></ion-back-button>
 		</ion-buttons>
-		<ion-title>{{'tests' | translate}}</ion-title>
+		<ion-title>{{'Challenges' | translate}} - {{ selectedYear }}</ion-title>
 	</ion-toolbar>
 
 	<ion-segment [(ngModel)]="tab" lines="none">
@@ -23,12 +23,12 @@
 <ion-content class="bg_color">
 	<div class="tab_container" [ngSwitch]="tab">
 		<ion-list lines="none" *ngSwitchCase="'upcoming_test'">
-			<ion-item (click)="question()">
+			<ion-item *ngFor="let challenge of challenges" (click)="question()">
 				<div class="item_container">
 					<div class="syllabus">
-						<h3>Geometric weekly test</h3>
+						<h3>{{ challenge.name }}</h3>
 						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							{{ challenge.description }}
 						</p>
 					</div>
 
@@ -49,7 +49,7 @@
 			</ion-item>
 
 
-			<ion-item>
+			<!-- <ion-item>
 				<div class="item_container">
 					<div class="syllabus">
 						<h3>Maths Algebric test</h3>
@@ -195,7 +195,7 @@
 						</ion-col>
 					</ion-row>
 				</div>
-			</ion-item>
+			</ion-item> -->
 		</ion-list>
 
 
