@@ -1,6 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { APP_STATE, AppState } from '../app-state.service';
+import { ScreenOrientation } from '@ionic-native/screen-orientation/ngx';
 
 @Component({
   selector: 'app-tests',
@@ -12,7 +13,7 @@ export class TestsPage implements OnInit {
   tab: string = "upcoming_test";
   challenges: Array<{ name: string, description: string, subject: string, year: string }>;
   
-  constructor(@Inject(APP_STATE) public appState: AppState, private route: Router) { 
+  constructor(@Inject(APP_STATE) public appState: AppState, private route: Router, private screenOrientation: ScreenOrientation) { 
     this.challenges = [
       {name: 'learn-to-count-to-three', description: "Learn to count - up to 3", subject: 'counting-to-three', year: 'reception'}, 
       {name: 'count-objects-up-to-three', description: "Count objects - up to 3", subject: 'counting-to-three', year: 'reception'},
@@ -33,6 +34,7 @@ export class TestsPage implements OnInit {
     this.route.navigate(['./test-result']);
   } 
  question() {
+    this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.LANDSCAPE);
     this.route.navigate(['./question']);
   } 
 }
