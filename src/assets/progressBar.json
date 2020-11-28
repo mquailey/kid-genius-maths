@@ -1,0 +1,1289 @@
+{
+	"textures": [
+		{
+			"image": "progressBar-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-9.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-10.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-11.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-12.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-13.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-14.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-15.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-16.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-17.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-18.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-19.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-20.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-21.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-22.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-23.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-24.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar30.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-25.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar31.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-26.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar32.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-27.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar33.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-28.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar34.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-29.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar35.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-30.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar36.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-31.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar37.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-32.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar38.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-33.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar39.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-34.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-35.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-36.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-37.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-38.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		},
+		{
+			"image": "progressBar-39.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2684,
+				"h": 169
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "progressBar9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 2682,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 2682,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 2682,
+						"h": 167
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:240f8954cefffd879013f57df62c0490:3c21774c91110a9d86c83c4d1beb3fc8:334b1f5022b99c2d68ee7799252537d7$"
+	}
+}
